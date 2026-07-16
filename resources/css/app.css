@@ -1,0 +1,229 @@
+/* =====================================================
+   BOOTSTRAP
+===================================================== */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* =====================================================
+   FONT AWESOME
+===================================================== */
+
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* =====================================================
+   ADMIN LTE
+===================================================== */
+
+@import 'admin-lte/dist/css/adminlte.min.css';
+
+/* =====================================================
+   CUSTOM CSS
+===================================================== */
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f6f9;
+}
+
+.brand-text{
+    font-weight:600;
+}
+
+.card{
+    border-radius:12px;
+}
+
+.table thead th{
+    background:#0d6efd;
+    color:white;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.content-wrapper{
+    background:#f4f6f9;
+}
+/* ===========================
+   Layout
+=========================== */
+
+.wrapper{
+    display:flex;
+    min-height:100vh;
+}
+
+#content{
+    margin-left:250px;
+    width:100%;
+    min-height:100vh;
+    background:#f4f6f9;
+}
+
+main{
+    padding:25px;
+}
+
+/* ===========================
+   Sidebar
+=========================== */
+
+#sidebar{
+
+    width:250px;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    bottom:0;
+
+    overflow-y:auto;
+
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+
+    background:#ffffff;
+
+}
+/* ===========================
+   Sidebar
+=========================== */
+
+#sidebar a{
+
+    transition:.3s;
+
+}
+
+#sidebar a:hover{
+
+    background:#0b5ed7;
+
+    padding-left:35px;
+
+}
+
+#sidebar .bg-dark{
+
+    background:#084298 !important;
+
+    border-left:5px solid #ffffff;
+
+}
+/* ===========================
+   Navbar
+=========================== */
+
+.navbar{
+
+    border-radius:0;
+
+}
+
+.navbar h4{
+
+    font-weight:700;
+
+}
+
+.navbar small{
+
+    font-size:13px;
+
+}
+/* ====================================
+SIDEBAR
+==================================== */
+
+#sidebar{
+
+    width:250px;
+
+    height:100vh;
+
+    overflow-y:auto;
+
+    background:#0d6efd;
+
+}
+
+.sidebar-menu{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:14px 20px;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+.sidebar-menu i{
+
+    width:22px;
+
+    text-align:center;
+
+}
+
+.sidebar-menu:hover{
+
+    background:#084298;
+
+    color:white;
+
+}
+
+.sidebar-menu.active{
+
+    background:#052c65;
+
+    color:white;
+
+    border-left:5px solid #ffc107;
+
+}
+
+#content{
+
+    margin-left:250px;
+
+    min-height:100vh;
+
+    background:#f4f6f9;
+
+}
+
+/* Scroll */
+
+#sidebar::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+#sidebar::-webkit-scrollbar-thumb{
+
+    background:#0b5ed7;
+
+    border-radius:10px;
+
+}
